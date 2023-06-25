@@ -25,7 +25,7 @@ export const MovieList: FC = () => {
 
   return (
     <div>
-      {movies?.map((movie, i) => {
+      {movies.map((movie, i) => {
         return <Card key={i} movie={movie} />
       })}
     </div>
