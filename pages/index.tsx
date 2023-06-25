@@ -1,4 +1,3 @@
-
 import { Center, Box, Heading } from '@chakra-ui/react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
